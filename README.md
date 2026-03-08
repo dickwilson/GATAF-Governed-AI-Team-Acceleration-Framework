@@ -55,7 +55,9 @@ GATAF is organized into **five core layers** and **three supporting engines**.
          ↕ Policy Validation Engine
 ```
 
-See [`/docs/gataf-framework-architecture-v1.png`](docs/gataf-framework-architecture-v1.png) for the visual architecture diagram.
+![GATAF Visual Architecture Diagram](images/gataf-architecture.svg)
+
+See [`/docs/gataf-framework-architecture-v1.png`](docs/gataf-framework-architecture-v1.png) for an alternative PNG version.
 
 For detailed layer descriptions, see [`/framework/layers.md`](framework/layers.md).
 
