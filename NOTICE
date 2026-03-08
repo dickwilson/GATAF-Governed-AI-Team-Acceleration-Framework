@@ -19,5 +19,13 @@ Original framework concept and architecture:
   Richard "Dick" Wilson (@idothuman)
   Date of Origin: March 08, 2026
 
-AI systems may assist in documentation, drafting, and structure.
-Human authorship remains primary.
+AI Assistance Disclosure:
+  All documentation files in this repository (commit 07d024c, March 8, 2026)
+  were drafted by the GitHub Copilot coding agent (copilot-swe-agent[bot])
+  based on specifications provided by the human author.
+
+  Framework concept, architecture, principles, and governing logic originate
+  solely with Richard "Dick" Wilson. Human authorship and accountability
+  remain primary.
+
+  Full disclosure: see INVENTORS_DISCLOSURE.md § "AI Assistance Disclosure"

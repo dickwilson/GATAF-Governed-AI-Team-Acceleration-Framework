@@ -86,8 +86,54 @@ As required by the Apache License 2.0 and the [`NOTICE`](NOTICE) file, any deriv
 
 ## AI Assistance Disclosure
 
-Portions of the documentation in this repository were drafted with the assistance of AI language models. The framework concept, architecture, principles, and governing logic originate solely with the human author listed above. Human authorship remains primary.
+In accordance with **GATAF Principle 4 (Transparency)** — *AI contributions must be explainable in under 30 seconds* — the following is a complete and specific account of AI involvement in the creation of this repository.
+
+### AI Tool Used
+
+**GitHub Copilot coding agent** (`copilot-swe-agent[bot]`)
+Git commit: `07d024c` — March 8, 2026
+
+### What the AI Contributed
+
+The GitHub Copilot coding agent drafted all of the following files from scratch, based on detailed written specifications provided by the human author:
+
+| File | AI Contribution |
+|------|----------------|
+| `README.md` | Substantially rewritten; structured framework description, tables, and navigation |
+| `COPILOT_CONTEXT.md` | Fully drafted; project context export formatted for AI assistant consumption |
+| `INVENTORS_DISCLOSURE.md` | Fully drafted; structured disclosure document (this file) |
+| `NOTICE` | Fully drafted; Apache 2.0 attribution notice |
+| `docs/gataf-framework-architecture-v1.md` | Fully drafted; diagram placeholder and upload instructions |
+| `framework/framework-overview.md` | Fully drafted; narrative framework description and getting-started guide |
+| `framework/principles.md` | Fully drafted; nine-principle reference document with descriptions and implications |
+| `framework/layers.md` | Fully drafted; detailed five-layer breakdown with inputs, outputs, and artifacts |
+| `templates/work-genome-template.md` | Fully drafted; structured Layer 1 mapping template |
+| `templates/raw-idea-intake-card.md` | Fully drafted; idea intake form |
+| `templates/validation-checklist.md` | Fully drafted; six-domain policy validation checklist |
+| `templates/team-playbook-template.md` | Fully drafted; nine-part team playbook template |
+| `playbooks/sample-team-playbook.md` | Fully drafted; completed example playbook for fictional team |
+| `research/human-ai-collaboration-notes.md` | Fully drafted; research notes including five collaboration patterns |
+
+### What the Human Author Originated
+
+The following elements originate solely with **Richard "Dick" Wilson** and were provided to the AI as specifications before any files were written:
+
+- The GATAF framework concept and name
+- The five-layer architecture (Work Genome Mapping → Measurement & Feedback)
+- The three supporting engines (Ideation Intake, Emergent Pattern Discovery, Policy Validation)
+- All nine immutable principles, including the No Invalidation Rule and 30-Second Transparency Standard
+- The concept of Human–AI–Team Synergy as the primary framework outcome
+- The repository structure layout
+- The requirement for Apache 2.0 open-source release
+
+### Human Accountable
+
+**Richard "Dick" Wilson** (@idothuman) — as framework originator and repository owner, is accountable for all content in this repository, regardless of how it was drafted.
+
+### Review Status
+
+All AI-drafted content was committed directly to the repository without prior human line-by-line review. Human review and revision of the AI-generated documentation is ongoing as the framework evolves toward v0.1. Content should be treated as an AI-assisted first draft pending that review.
 
 ---
 
-*This disclosure is provided for attribution, record-keeping, and open-source governance purposes.*
+*This disclosure is provided for attribution, record-keeping, and open-source governance purposes, and to demonstrate the framework's own transparency standard in practice.*
