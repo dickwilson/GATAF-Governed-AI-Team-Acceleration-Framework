@@ -16,22 +16,12 @@ The architecture diagram provides a visual representation of:
 
 4. **External Relationships** showing how corporate policy governs the framework from above, and how Human–AI–Team Synergy is the primary output
 
-## Upload Instructions
-
-To add the architecture diagram:
-
-1. Create the diagram using your preferred tool (draw.io, Lucidchart, Figma, PowerPoint, etc.)
-2. Export as PNG at minimum 1200px wide
-3. Name the file: `gataf-framework-architecture-v1.png`
-4. Upload to this `docs/` directory
-5. Remove this placeholder file or replace it with the diagram
-
 ## Diagram Reference in Documentation
 
-Once uploaded, the diagram is referenced in the README:
+The diagram is referenced in the README as an inline SVG:
 
 ```markdown
-![GATAF Framework Architecture](docs/gataf-framework-architecture-v1.png)
+![GATAF Visual Architecture Diagram](images/gataf-architecture.svg)
 ```
 
 ---
