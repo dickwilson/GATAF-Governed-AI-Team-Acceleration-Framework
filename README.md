@@ -6,7 +6,11 @@ GATAF is an open governance framework designed to help enterprise teams safely i
 
 ---
 
-## What Is GATAF?
+## Visual Architecture
+
+![GATAF Visual Architecture Diagram](images/gataf-architecture.svg)
+
+---
 
 GATAF (Governed AI Team Acceleration Framework) provides a **lightweight, platform-independent governance layer** that sits inside your existing infrastructure. Teams use it to:
 
