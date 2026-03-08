@@ -1,8 +1,8 @@
 # GATAF Framework Architecture Diagram
 
-> **Location:** `docs/gataf-framework-architecture-v1.png`
+> **Location:** `images/gataf-architecture.svg`
 
-This file is a placeholder for the GATAF visual architecture diagram.
+The GATAF visual architecture diagram is available as an SVG at [`images/gataf-architecture.svg`](../images/gataf-architecture.svg).
 
 ## What This Diagram Shows
 
