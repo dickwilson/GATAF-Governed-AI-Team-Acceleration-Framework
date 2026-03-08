@@ -1,32 +1,31 @@
 GATAF – Governed AI Team Acceleration Framework
-Copyright 2026 Richard Wilson
+Copyright 2026 Richard "Dick" Wilson
 
-This product is licensed under the Apache License, Version 2.0.
-You may obtain a copy of the License at:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
     http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software and
-documentation distributed under the License is distributed on an "AS IS"
-BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-implied. See the License for the specific language governing permissions
-and limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ---
 
-ATTRIBUTION
-
-Original framework concept, architecture, and governance design:
+Original framework concept and architecture:
   Richard "Dick" Wilson (@idothuman)
-  Date of origin: March 08, 2026
+  Date of Origin: March 08, 2026
 
-AI systems (including GitHub Copilot) assisted with documentation drafting,
-structural organization, and template formatting. Human authorship of all
-conceptual decisions, architectural choices, and governance intent remains
-with the original author.
+AI Assistance Disclosure:
+  All documentation files in this repository (commit 07d024c, March 8, 2026)
+  were drafted by the GitHub Copilot coding agent (copilot-swe-agent[bot])
+  based on specifications provided by the human author.
 
----
+  Framework concept, architecture, principles, and governing logic originate
+  solely with Richard "Dick" Wilson. Human authorship and accountability
+  remain primary.
 
-This NOTICE file is provided in accordance with Section 4(d) of the
-Apache License, Version 2.0 and must be included in all distributions
-of this work or any derivative works.
+  Full disclosure: see INVENTORS_DISCLOSURE.md § "AI Assistance Disclosure"

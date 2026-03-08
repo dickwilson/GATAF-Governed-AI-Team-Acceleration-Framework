@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 780" font-family="'Segoe UI',Arial,Helvetica,sans-serif">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#bfcfe6"/>
+      <stop offset="100%" stop-color="#dae3f2"/>
+    </linearGradient>
+    <!-- Layer gradients (left → right) -->
+    <linearGradient id="gL1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1050a0"/>
+      <stop offset="100%" stop-color="#1e7fd0"/>
+    </linearGradient>
+    <linearGradient id="gL2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a7878"/>
+      <stop offset="100%" stop-color="#14aab0"/>
+    </linearGradient>
+    <linearGradient id="gL3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#247228"/>
+      <stop offset="100%" stop-color="#38a840"/>
+    </linearGradient>
+    <linearGradient id="gL4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c84000"/>
+      <stop offset="100%" stop-color="#f07800"/>
+    </linearGradient>
+    <linearGradient id="gL5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9e0e0e"/>
+      <stop offset="100%" stop-color="#dc2c2c"/>
+    </linearGradient>
+    <!-- Platform gradient -->
+    <linearGradient id="gPlat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e4e98"/>
+      <stop offset="100%" stop-color="#1c3272"/>
+    </linearGradient>
+    <!-- Drop shadow for layer bars -->
+    <filter id="shL" x="-6%" y="-20%" width="116%" height="150%">
+      <feDropShadow dx="3" dy="5" stdDeviation="5" flood-color="#00000060"/>
+    </filter>
+    <!-- Drop shadow for boxes -->
+    <filter id="shB" x="-8%" y="-12%" width="120%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000050"/>
+    </filter>
+  </defs>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  BACKGROUND                                         -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <rect width="1320" height="780" fill="url(#bg)"/>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  HEADER                                             -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1320" height="82" fill="#1a3068"/>
+  <!-- GATAF brand -->
+  <text x="52" y="56" fill="white" font-size="48" font-weight="900" letter-spacing="4" font-family="Arial Black,Arial,sans-serif">GATAF</text>
+  <circle cx="224" cy="52" r="5" fill="white" opacity="0.75"/>
+  <text x="242" y="57" fill="white" font-size="27" font-weight="300" letter-spacing="0.5">Governed AI Team Acceleration Framework</text>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  LAYER BARS                                         -->
+  <!--  Parallelogram: bx=45 dx=22 bw=870 bh=68 step=76  -->
+  <!--  top-left=(67,yt) top-right=(937,yt)               -->
+  <!--  bot-right=(915,yb) bot-left=(45,yb)               -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <!-- ── Layer 5: Measurement & Feedback (RED)  yt=100 yb=168 ── -->
+  <polygon points="67,100 937,100 915,168 45,168" fill="url(#gL5)" filter="url(#shL)"/>
+  <!-- bottom-depth strip -->
+  <polygon points="45,168 915,168 907,176 37,176" fill="rgba(0,0,0,0.22)"/>
+  <!-- icon circle -->
+  <circle cx="132" cy="134" r="27" fill="rgba(255,255,255,0.20)"/>
+  <!-- bar-chart + check icon -->
+  <g transform="translate(132,134)">
+    <rect x="-14" y="-13" width="7" height="22" fill="white"/>
+    <rect x="-5" y="-19" width="7" height="28" fill="white"/>
+    <rect x="4" y="-8" width="7" height="17" fill="white"/>
+    <polyline points="-5,14 -1,19 11,6" stroke="#c0392b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="202" y="141" fill="white" font-size="23" font-weight="700">Layer 5: Measurement &amp; Feedback</text>
+
+  <!-- ── Layer 4: Implementation Rituals (ORANGE) yt=176 yb=244 ── -->
+  <polygon points="67,176 937,176 915,244 45,244" fill="url(#gL4)" filter="url(#shL)"/>
+  <polygon points="45,244 915,244 907,252 37,252" fill="rgba(0,0,0,0.22)"/>
+  <circle cx="132" cy="210" r="27" fill="rgba(255,255,255,0.20)"/>
+  <!-- calendar + clock icon -->
+  <g transform="translate(132,210)" fill="none" stroke="white" stroke-width="2">
+    <rect x="-16" y="-16" width="22" height="24" rx="2" fill="rgba(255,255,255,0.18)"/>
+    <line x1="-10" y1="-16" x2="-10" y2="-22"/>
+    <line x1="-2"  y1="-16" x2="-2"  y2="-22"/>
+    <line x1="-16" y1="-10" x2="6"   y2="-10" stroke-width="1.5"/>
+    <circle cx="10" cy="6" r="9" fill="rgba(255,255,255,0.18)"/>
+    <line x1="10" y1="6" x2="10" y2="0"/>
+    <line x1="10" y1="6" x2="15" y2="9"/>
+  </g>
+  <text x="202" y="217" fill="white" font-size="23" font-weight="700">Layer 4: Implementation Rituals</text>
+
+  <!-- ── Layer 3: Team Standards & Guardrails (GREEN) yt=252 yb=320 ── -->
+  <polygon points="67,252 937,252 915,320 45,320" fill="url(#gL3)" filter="url(#shL)"/>
+  <polygon points="45,320 915,320 907,328 37,328" fill="rgba(0,0,0,0.22)"/>
+  <circle cx="132" cy="286" r="27" fill="rgba(255,255,255,0.20)"/>
+  <!-- shield + check icon -->
+  <g transform="translate(132,286)">
+    <path d="M0,-17 L17,-10 L17,3 Q17,17 0,22 Q-17,17 -17,3 L-17,-10 Z"
+          fill="rgba(255,255,255,0.22)" stroke="white" stroke-width="1.5"/>
+    <polyline points="-7,3 -2,10 10,-5" stroke="white" stroke-width="3"
+              fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="202" y="293" fill="white" font-size="23" font-weight="700">Layer 3: Team Standards &amp; Guardrails</text>
+
+  <!-- ── Layer 2: Acceleration Opportunity Scan (TEAL) yt=328 yb=396 ── -->
+  <polygon points="67,328 937,328 915,396 45,396" fill="url(#gL2)" filter="url(#shL)"/>
+  <polygon points="45,396 915,396 907,404 37,404" fill="rgba(0,0,0,0.22)"/>
+  <circle cx="132" cy="362" r="27" fill="rgba(255,255,255,0.20)"/>
+  <!-- magnifying glass + arrow icon -->
+  <g transform="translate(132,362)" fill="none" stroke="white" stroke-width="2.5">
+    <circle cx="-5" cy="-5" r="13"/>
+    <line x1="6" y1="6" x2="15" y2="15"/>
+    <!-- arrow up-right from lens -->
+    <line x1="7" y1="-2" x2="14" y2="-2" stroke-width="2"/>
+    <line x1="14" y1="-8" x2="14" y2="-2" stroke-width="2"/>
+    <line x1="7"  y1="-8" x2="14" y2="-2" stroke-width="2"/>
+  </g>
+  <text x="202" y="369" fill="white" font-size="23" font-weight="700">Layer 2: Acceleration Opportunity Scan</text>
+
+  <!-- ── Layer 1: Work Genome Mapping (BLUE) yt=404 yb=472 ── -->
+  <polygon points="67,404 937,404 915,472 45,472" fill="url(#gL1)" filter="url(#shL)"/>
+  <polygon points="45,472 915,472 907,480 37,480" fill="rgba(0,0,0,0.22)"/>
+  <circle cx="132" cy="438" r="27" fill="rgba(255,255,255,0.20)"/>
+  <!-- genome / network-nodes icon -->
+  <g transform="translate(132,438)">
+    <circle cx="-13" cy="0"   r="5" fill="white"/>
+    <circle cx="0"   cy="-14" r="5" fill="white"/>
+    <circle cx="13"  cy="0"   r="5" fill="white"/>
+    <circle cx="-7"  cy="12"  r="4" fill="white"/>
+    <circle cx="7"   cy="12"  r="4" fill="white"/>
+    <line x1="-9" y1="0"   x2="-4"  y2="-11" stroke="white" stroke-width="1.5"/>
+    <line x1="9"  y1="0"   x2="4"   y2="-11" stroke="white" stroke-width="1.5"/>
+    <line x1="-9" y1="0"   x2="-3"  y2="10"  stroke="white" stroke-width="1.5"/>
+    <line x1="9"  y1="0"   x2="3"   y2="10"  stroke="white" stroke-width="1.5"/>
+    <line x1="-3" y1="12"  x2="3"   y2="12"  stroke="white" stroke-width="1.5"/>
+  </g>
+  <text x="202" y="445" fill="white" font-size="23" font-weight="700">Layer 1: Work Genome Mapping</text>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  BASE CONNECTOR (platform under layers)             -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <polygon points="37,480 907,480 930,492 30,492" fill="#1e3878"/>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  SUPPORTING ENGINES PLATFORM                        -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <rect x="30" y="492" width="907" height="122" fill="url(#gPlat)" rx="0" filter="url(#shB)"/>
+  <!-- round bottom corners only -->
+  <rect x="30" y="492" width="907" height="112" fill="url(#gPlat)"/>
+  <rect x="30" y="562" width="907" height="52"  fill="url(#gPlat)" rx="0 0 7 7"/>
+
+  <!-- "Supporting Engines" header -->
+  <text x="484" y="515" text-anchor="middle" fill="white" font-size="19" font-weight="700" letter-spacing="1">Supporting Engines</text>
+  <line x1="340" y1="521" x2="628" y2="521" stroke="rgba(255,255,255,0.45)" stroke-width="1"/>
+
+  <!-- ── Engine Box 1: Ideation Intake Engine ── -->
+  <rect x="52" y="530" width="218" height="74" fill="white" rx="6" filter="url(#shB)"/>
+  <!-- lightbulb + sticky-notes icon -->
+  <g transform="translate(105,564)">
+    <ellipse cx="0" cy="-9" rx="11" ry="14" fill="#f5c514"/>
+    <rect x="-6" y="5" width="12" height="7" rx="1" fill="#f5c514"/>
+    <line x1="-4" y1="13" x2="4" y2="13" stroke="#c8a010" stroke-width="1.5"/>
+    <rect x="-20" y="-4" width="12" height="12" fill="#ff8566" rx="2" transform="rotate(-8,-20,-4)"/>
+    <rect x="-16" y="-10" width="12" height="12" fill="#60c8f0" rx="2" transform="rotate(6,-16,-10)"/>
+  </g>
+  <text x="155" y="554" text-anchor="middle" fill="#1a3068" font-size="13" font-weight="700">Ideation Intake</text>
+  <text x="155" y="570" text-anchor="middle" fill="#1a3068" font-size="13" font-weight="700">Engine</text>
+
+  <!-- Arrow 1 -->
+  <line x1="273" y1="567" x2="310" y2="567" stroke="#6888bc" stroke-width="2.5"/>
+  <polygon points="310,567 302,562 302,572" fill="#6888bc"/>
+
+  <!-- ── Engine Box 2: Emergent Pattern Discovery / Policy Validation ── -->
+  <rect x="316" y="530" width="278" height="74" fill="white" rx="6" filter="url(#shB)"/>
+  <line x1="455" y1="538" x2="455" y2="596" stroke="#dce4f0" stroke-width="1"/>
+
+  <!-- left half: Emergent Pattern Discovery -->
+  <g transform="translate(376,564)">
+    <ellipse cx="0" cy="-10" rx="9" ry="12" fill="#f5c514"/>
+    <rect x="-5" y="2" width="10" height="6" rx="1" fill="#f5c514"/>
+    <circle cx="-14" cy="-3" r="4" fill="#1050a0"/>
+    <circle cx="14"  cy="-3" r="4" fill="#1050a0"/>
+    <circle cx="0"   cy="-23" r="4" fill="#1050a0"/>
+    <line x1="-10" y1="-3" x2="-5"  y2="-7"  stroke="#1050a0" stroke-width="1.5"/>
+    <line x1="10"  y1="-3" x2="5"   y2="-7"  stroke="#1050a0" stroke-width="1.5"/>
+    <line x1="0"   y1="-19" x2="0"  y2="-8"  stroke="#1050a0" stroke-width="1.5"/>
+  </g>
+  <text x="386" y="549" text-anchor="middle" fill="#1a3068" font-size="11" font-weight="700">Emergent</text>
+  <text x="386" y="562" text-anchor="middle" fill="#1a3068" font-size="11" font-weight="700">Pattern</text>
+  <text x="386" y="575" text-anchor="middle" fill="#1a3068" font-size="11" font-weight="700">Discovery</text>
+
+  <!-- right half: Policy Validation Engine (mini) -->
+  <g transform="translate(524,564)" fill="none" stroke="#1a3068" stroke-width="1.5">
+    <rect x="-13" y="-18" width="26" height="34" rx="2" fill="#f0f5ff"/>
+    <rect x="-7"  y="-23" width="14" height="8"  rx="2" fill="#f0f5ff" stroke="#1a3068"/>
+    <line x1="-8" y1="-7" x2="8"  y2="-7"/>
+    <line x1="-8" y1="0"  x2="8"  y2="0"/>
+    <line x1="-8" y1="7"  x2="2"  y2="7"/>
+    <polyline points="-2,5 2,11 9,-1" stroke="#27ae60" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="524" y="549" text-anchor="middle" fill="#1a3068" font-size="11" font-weight="700">Policy</text>
+  <text x="524" y="562" text-anchor="middle" fill="#1a3068" font-size="11" font-weight="700">Validation</text>
+  <text x="524" y="575" text-anchor="middle" fill="#1a3068" font-size="11" font-weight="700">Engine</text>
+
+  <!-- Arrow 2 -->
+  <line x1="597" y1="567" x2="634" y2="567" stroke="#6888bc" stroke-width="2.5"/>
+  <polygon points="634,567 626,562 626,572" fill="#6888bc"/>
+
+  <!-- ── Engine Box 3: Policy Validation Engine ── -->
+  <rect x="640" y="530" width="246" height="74" fill="white" rx="6" filter="url(#shB)"/>
+  <!-- clipboard + check icon -->
+  <g transform="translate(700,564)" fill="none" stroke="#1a3068" stroke-width="1.5">
+    <rect x="-14" y="-19" width="28" height="36" rx="2" fill="#f0f5ff"/>
+    <rect x="-7"  y="-25" width="14" height="9"  rx="2" fill="#f0f5ff" stroke="#1a3068"/>
+    <line x1="-9" y1="-8"  x2="9"  y2="-8"/>
+    <line x1="-9" y1="-1"  x2="9"  y2="-1"/>
+    <line x1="-9" y1="6"   x2="2"  y2="6"/>
+    <polyline points="-3,5 1,12 11,-2" stroke="#27ae60" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- green check badge -->
+  <circle cx="728" cy="578" r="9" fill="#27ae60"/>
+  <polyline points="722,578 726,583 735,571" stroke="white" stroke-width="2"
+            fill="none" stroke-linecap="round"/>
+  <text x="765" y="554" text-anchor="middle" fill="#1a3068" font-size="13" font-weight="700">Policy Validation</text>
+  <text x="765" y="570" text-anchor="middle" fill="#1a3068" font-size="13" font-weight="700">Engine</text>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  CORE PRINCIPLES SIDEBAR                            -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <rect x="956" y="94" width="334" height="520" fill="#1a3068" rx="10" filter="url(#shB)"/>
+  <!-- title bar -->
+  <rect x="956" y="94" width="334" height="54" fill="#142550" rx="10"/>
+  <rect x="956" y="124" width="334" height="24" fill="#142550"/>
+  <text x="1123" y="128" text-anchor="middle" fill="white" font-size="22" font-weight="700">Core Principles</text>
+  <line x1="976" y1="150" x2="1270" y2="150" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
+
+  <!-- 9 principle items — y_start=172, step=50 -->
+  <!-- ① Corporate Policy First -->
+  <circle cx="988" cy="174" r="14" fill="#2e5298"/>
+  <text x="988" y="179" text-anchor="middle" fill="white" font-size="12" font-weight="700">1</text>
+  <text x="1015" y="179" fill="white" font-size="15">Corporate Policy First</text>
+
+  <!-- ② No Invalidation Rule -->
+  <circle cx="988" cy="224" r="14" fill="#2e5298"/>
+  <text x="988" y="229" text-anchor="middle" fill="white" font-size="12" font-weight="700">2</text>
+  <text x="1015" y="229" fill="white" font-size="15">No Invalidation Rule</text>
+
+  <!-- ③ Mandatory Validation -->
+  <circle cx="988" cy="274" r="14" fill="#2e5298"/>
+  <text x="988" y="279" text-anchor="middle" fill="white" font-size="12" font-weight="700">3</text>
+  <text x="1015" y="279" fill="white" font-size="15">Mandatory Validation</text>
+
+  <!-- ④ Transparency & Attribution -->
+  <circle cx="988" cy="324" r="14" fill="#2e5298"/>
+  <text x="988" y="329" text-anchor="middle" fill="white" font-size="12" font-weight="700">4</text>
+  <text x="1015" y="329" fill="white" font-size="15">Transparency &amp; Attribution</text>
+
+  <!-- ⑤ Instant Status Check -->
+  <circle cx="988" cy="374" r="14" fill="#2e5298"/>
+  <text x="988" y="379" text-anchor="middle" fill="white" font-size="12" font-weight="700">5</text>
+  <text x="1015" y="379" fill="white" font-size="15">Instant Status Check</text>
+
+  <!-- ⑥ Inclusive Ideation -->
+  <circle cx="988" cy="424" r="14" fill="#2e5298"/>
+  <text x="988" y="429" text-anchor="middle" fill="white" font-size="12" font-weight="700">6</text>
+  <text x="1015" y="429" fill="white" font-size="15">Inclusive Ideation</text>
+
+  <!-- ⑦ Emergent Adaptation -->
+  <circle cx="988" cy="474" r="14" fill="#2e5298"/>
+  <text x="988" y="479" text-anchor="middle" fill="white" font-size="12" font-weight="700">7</text>
+  <text x="1015" y="479" fill="white" font-size="15">Emergent Adaptation</text>
+
+  <!-- ⑧ Synergy Focus -->
+  <circle cx="988" cy="524" r="14" fill="#2e5298"/>
+  <text x="988" y="529" text-anchor="middle" fill="white" font-size="12" font-weight="700">8</text>
+  <text x="1015" y="529" fill="white" font-size="15">Synergy Focus</text>
+
+  <!-- ⑨ Open Source Intent -->
+  <circle cx="988" cy="574" r="14" fill="#2e5298"/>
+  <text x="988" y="579" text-anchor="middle" fill="white" font-size="12" font-weight="700">9</text>
+  <text x="1015" y="579" fill="white" font-size="15">Open Source Intent</text>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  HUMAN-AI SILHOUETTES                               -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- faded radial glow in center -->
+  <ellipse cx="660" cy="642" rx="300" ry="50" fill="rgba(255,255,255,0.18)"/>
+
+  <!-- Left figures -->
+  <g opacity="0.42" fill="#3858a0">
+    <ellipse cx="58"  cy="628" rx="11" ry="12"/>
+    <path d="M40,672 Q58,642 76,672Z"/>
+  </g>
+  <g opacity="0.50" fill="#4868b0">
+    <ellipse cx="108" cy="623" rx="13" ry="14"/>
+    <path d="M86,672 Q108,636 130,672Z"/>
+  </g>
+  <g opacity="0.60" fill="#5878c0">
+    <ellipse cx="166" cy="618" rx="16" ry="17"/>
+    <path d="M138,672 Q166,628 194,672Z"/>
+  </g>
+  <g opacity="0.52" fill="#4868b0">
+    <ellipse cx="222" cy="623" rx="13" ry="14"/>
+    <path d="M200,672 Q222,636 244,672Z"/>
+  </g>
+  <g opacity="0.44" fill="#3858a0">
+    <ellipse cx="268" cy="628" rx="11" ry="12"/>
+    <path d="M250,672 Q268,642 286,672Z"/>
+  </g>
+
+  <!-- Centre: Robot -->
+  <g fill="#5878b8" opacity="0.92">
+    <rect x="645" y="612" width="30" height="28" rx="4"/>
+    <line x1="660" y1="612" x2="660" y2="603" stroke="#5878b8" stroke-width="3"/>
+    <circle cx="660" cy="600" r="4" fill="#5878b8"/>
+    <rect x="648" y="617" width="8"  height="7" rx="1" fill="#c8dcff"/>
+    <rect x="664" y="617" width="8"  height="7" rx="1" fill="#c8dcff"/>
+    <line x1="650" y1="629" x2="670" y2="629" stroke="#c8dcff" stroke-width="2"/>
+    <rect x="643" y="642" width="34" height="28" rx="3"/>
+    <line x1="643" y1="648" x2="632" y2="661" stroke="#5878b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="677" y1="648" x2="688" y2="661" stroke="#5878b8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right figures (mirrored) -->
+  <g opacity="0.44" fill="#3858a0">
+    <ellipse cx="1052" cy="628" rx="11" ry="12"/>
+    <path d="M1034,672 Q1052,642 1070,672Z"/>
+  </g>
+  <g opacity="0.52" fill="#4868b0">
+    <ellipse cx="1098" cy="623" rx="13" ry="14"/>
+    <path d="M1076,672 Q1098,636 1120,672Z"/>
+  </g>
+  <g opacity="0.60" fill="#5878c0">
+    <ellipse cx="1154" cy="618" rx="16" ry="17"/>
+    <path d="M1126,672 Q1154,628 1182,672Z"/>
+  </g>
+  <g opacity="0.50" fill="#4868b0">
+    <ellipse cx="1212" cy="623" rx="13" ry="14"/>
+    <path d="M1190,672 Q1212,636 1234,672Z"/>
+  </g>
+  <g opacity="0.42" fill="#3858a0">
+    <ellipse cx="1262" cy="628" rx="11" ry="12"/>
+    <path d="M1244,672 Q1262,642 1280,672Z"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!--  FOOTER                                             -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <rect x="0" y="682" width="1320" height="98" fill="#1a3068"/>
+  <text x="660" y="722" text-anchor="middle" fill="white"
+        font-size="32" font-weight="900" letter-spacing="1">Human–AI–Team Synergy</text>
+  <text x="660" y="752" text-anchor="middle" fill="#8ab0d8"
+        font-size="16" letter-spacing="4">Safe  ·  Transparent  ·  Aligned  ·  Effective</text>
+</svg>
